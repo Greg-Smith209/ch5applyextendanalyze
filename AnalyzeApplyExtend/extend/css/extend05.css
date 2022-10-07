@@ -1,8 +1,8 @@
-/* 
-Style sheet created by: 
-Student's Name 
-Today's Date 
-*/
+/* Style sheet created by:
+Student's First Name:gregory
+Student's Last Name:Smith
+Today's Date:10/6/2022
+ */
 body {
     background-color: #dde3fd;
 }
@@ -22,7 +22,11 @@ body {
 }
 
 /* sticky */
-
+sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
 
 /* relative */
 
