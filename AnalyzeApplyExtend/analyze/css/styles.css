@@ -1,7 +1,7 @@
 /*
-    Student Name
-	File Name: 
-	Current Date: 
+    Student Name: gregory smith
+	File Name: styles.css
+	Current Date: 10/6/2022
 */
 
 /* CSS reset */
@@ -21,6 +21,16 @@ img {
     display: block;
 }
 
+/* styles for mobile viewport */
+
+
+/* style rules for hiding the tablet-desktop class */
+.tablet-desktop{
+  visibility: hidden;
+
+}
+
+
 /* Style rules for header content */
 header h1 {
     text-align: center;
@@ -38,6 +48,7 @@ nav {
 
 nav ul {
     text-align: center;
+    list-style-type: none;
 }
 
 nav li {
@@ -45,6 +56,7 @@ nav li {
     font-family: Geneva, Arial, sans-serif;
     font-weight: bold;
     padding: 3%;
+    display: inline-block;
 }
 
 nav li a {
@@ -62,6 +74,28 @@ main {
 
 main p {
     font-size: 1.25em;
+
+}
+
+.btn{
+  background-color: #375f1b;
+  padding: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 80%;
+  ,margin-right: 80%;
+  text-align: center;
+  border-radius: 5px;
+}
+.corner{
+  border-radius: 12px;
+}
+
+.btn a{
+color: #ebf7e3;
+text-decoration: none;
+font-size: 1.25em;
+display: block;
 }
 
 /* Style rules for footer content */
