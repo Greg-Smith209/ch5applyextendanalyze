@@ -1,4 +1,8 @@
-/* Style sheet created by: Student's First Name Student's Last Name, Today's Date */
+/* Style sheet created by:
+Student's First Name:gregory
+Student's Last Name:Smith
+Today's Date:10/6/2022
+ */
 
 /* CSS Reset */
 body, header, nav, main, footer, h1, div, img, ul {
@@ -11,6 +15,22 @@ body, header, nav, main, footer, h1, div, img, ul {
 body {
 	background-color: #e4f1f6;
 }
+
+img{
+ max-width: 100%;
+ display: block;
+}
+
+
+/* style rules for mobile viewport */
+
+
+/* style rule to hide tablet-desk class */
+tablet-desk{
+  visibility: hidden;
+}
+
+
 
 /* Style rule for header */
 header {
@@ -26,15 +46,21 @@ nav {
 	padding: 1%;
     margin-bottom: 1%;
     background-color: #67afcb;
+    position: -webkit-sticky;
+    position:sticky;
+top: 0;
 }
 
 nav ul {
     text-align: center;
+   list-style-type: none;
 }
 
 nav li {
+  font-family: 'B612', sans-serif;
     font-size: 1.5em;
     padding: 4%;
+    display: inline-block;
 }
 
 nav li a {
@@ -49,6 +75,11 @@ main {
 	margin: 1% 1% 15%;
 	padding: 1%;
     font-size: 1.5em;
+      font-family: 'Crimson Text', serif;
+}
+
+.corner {
+  border-radius: 12px;
 }
 
 #image {
